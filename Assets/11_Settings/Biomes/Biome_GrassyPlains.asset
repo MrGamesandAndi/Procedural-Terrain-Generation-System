@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f591c705f9a1ed34990e4ab9584a29cf, type: 3}
+  m_Name: Biome_GrassyPlains
+  m_EditorClassIdentifier: 
+  biomeName: Grassy Plains
+  heightModifier: {fileID: 5452958170846654439, guid: 57f724e7bb86a9a489bdfc121bd75e0d, type: 3}
+  terrainPainter: {fileID: 3861015620170869176, guid: 422b42fb52c433442b5aa9345c432e1a, type: 3}
+  objectPlacer: {fileID: 4439380072395264290, guid: c85a7481e609525459318041bc339e4b, type: 3}
+  detailPainter: {fileID: 6681058851104688884, guid: 5b078060d70eaac4d817bfe9a0ebfb65, type: 3}
+  minIntensity: 0.5
+  maxIntensity: 1
+  minDecayRate: 0.1
+  maxDecayRate: 0.2

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb30ce805b5837a49bf4f9c0121ead1f, type: 3}
+  m_Name: Procedural Generation Config
+  m_EditorClassIdentifier: 
+  biomes:
+  - biome: {fileID: 11400000, guid: 17971bf332b11804d82fc851501370ae, type: 2}
+    weighting: 0.5
+  - biome: {fileID: 11400000, guid: 79bfc5dd9c8ccc54a9d92f899d883c17, type: 2}
+    weighting: 0.15
+  - biome: {fileID: 11400000, guid: 2076e3ac2f5527147912e072786d0e64, type: 2}
+    weighting: 0.25
+  - biome: {fileID: 11400000, guid: 87e8a103273576c40ac6f103ca96a144, type: 2}
+    weighting: 0.5
+  - biome: {fileID: 11400000, guid: 9051d6067012ab342abd6587fe884c82, type: 2}
+    weighting: 0.5
+  biomeGenerators: {fileID: 8378767328802345733, guid: bd769aff5629dcc4b93345d616d5c5c0, type: 3}
+  initialHeightModifier: {fileID: 2490152086478893004, guid: a3001b3126dab76439c0baa7cedf1d7c, type: 3}
+  heightPostProcessingModifier: {fileID: 2490152086478893004, guid: e266b2fb38ca6574cb1e1020e4189c4a, type: 3}
+  paintingPostProcessingModifier: {fileID: 3503860775051745283, guid: bd6036150217b3f4c97ba292a679054f, type: 3}
+  detailPaintingPostProcessingModifier: {fileID: 0}
+  waterHeight: 15
